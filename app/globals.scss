@@ -1,0 +1,67 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Stack+Sans+Text:wght@500&display=swap');
+
+:root {
+  --background: #ffffff;
+  --primary: #4f46e5;
+  --secondary: #6b7280;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-size: 16px;
+  font-family: "Stack Sans Text", sans-serif;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hidden {
+  opacity: 0;
+  max-width: 0;
+  pointer-events: none;
+}
+
+// Not Found Page Styles
+.container-notfound {
+  height: 70vh;
+  width: 100%;
+  flex-direction: column;
+
+  h1 {
+    font-size: 3em;
+    font-weight: bold;
+    margin-bottom: 12px;
+  }
+
+  p {
+    font-size: 1.1em;
+    max-width: 500px;
+    text-align: center;
+  }
+
+  button {
+    font-size: 1em;
+    margin-top: 24px;
+    padding: 15px 20px;
+    background-color: var(--primary);
+    color: #fff;
+    border: none;
+    border-radius: 2em;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    cursor: pointer;
+  }
+}
