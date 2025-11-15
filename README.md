@@ -2,6 +2,8 @@
 
 Mô tả ngắn gọn  
 Card Play Quiz Template Website là một ứng dụng web tương tác phát triển bằng Next.js, được thiết kế để hỗ trợ học sinh, sinh viên học và ghi nhớ kiến thức nhanh hơn thông qua các bài quiz, flashcard và các cơ chế lặp lại theo khoảng cách (spaced repetition). Giao diện được gamify nhằm tăng mức độ tương tác bằng cách sử dụng nhân vật, sự kiện văn hóa đại chúng hoặc trích đoạn phim để làm nội dung học tập hấp dẫn hơn.
+**Author:** Nguyễn Phan Đức Minh  
+**Role:** AI Researcher | Deep Learning, Machine Learning, Education Technology
 
 ---
 
