@@ -1,10 +1,17 @@
 @import "tailwindcss";
-@import url('https://fonts.googleapis.com/css2?family=Stack+Sans+Text:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Stack+Sans+Text:wght@200..700&display=swap');
+
+.HomePage {
+  height: 100vh;
+}
 
 :root {
   --background: #ffffff;
-  --primary: #4f46e5;
-  --secondary: #6b7280;
+  --primary: #3a31e8;
+  --secondary: #ffffff;
+  --shadow: #3a31e844;
+  --hover-shadow: #3a31e86e;
+  --hover-text: #dddcdc;
 }
 
 * {
@@ -17,21 +24,27 @@ html {
   scroll-behavior: smooth;
 }
 
-body {
-  font-size: 16px;
+.stack-regular {
   font-family: "Stack Sans Text", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  color: var(--primary);
+  font-size: 16px;
+  font-family: "Lobster", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 0.5px;
+  position: relative;
 }
 
 .flex {
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-.hidden {
-  opacity: 0;
-  max-width: 0;
-  pointer-events: none;
 }
 
 // Not Found Page Styles
